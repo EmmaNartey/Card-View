@@ -1,8 +1,7 @@
 package com.example.android.cardview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         mProductList.add(new Product("Cooking Gas Storage", "8/10"));
 
         //set adapter to recyclerview
-        mAdapter = new ProductAdapter(mProductList,this);
+        mAdapter = new ProductAdapter(mProductList, this);
         mRecyclerView.setAdapter(mAdapter);
     }
 }
