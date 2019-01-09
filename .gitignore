@@ -1,11 +1,20 @@
-*.iml
 .gradle
 /local.properties
-/.idea/caches/build_file_checksums.ser
-/.idea/libraries
-/.idea/modules.xml
+
+# Android Studio
 /.idea/workspace.xml
+/.idea/libraries
+*.iml
+
 .DS_Store
 /build
 /captures
-.externalNativeBuild
+/projectFilesBackup
+/keystore.properties
+/app/libs/API-Client-sources.jar
+/signing/**
+/.idea/caches
+/.idea/assetWizardSettings.xml
+/device-*.png
+/app/fabric.properties
+/.idea/statistic.xml
